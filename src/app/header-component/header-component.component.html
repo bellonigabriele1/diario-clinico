@@ -1,0 +1,9 @@
+ <!-- <p>header-component works!</p> -->
+
+<button class="btn btn-primary" (click)="onDiary()">diary</button>
+<button class="btn btn-primary" (click)="onVisualize()">visualize</button>
+<hr>
+<!-- <h1>{{ appMode }}</h1> -->
+<app-routine-component *ngIf="appMode == 'diary'"></app-routine-component>
+<app-visualize-component *ngIf="appMode == 'visualize'"></app-visualize-component>
+
