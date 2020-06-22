@@ -16,8 +16,8 @@ export class RoutineItemComponentComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  fattoNonFatto() {
-    this.routineService.fattoNonFatto();
+  fattoNonFatto(itemName) {
+    this.routineService.fattoNonFatto(itemName);
   }
 
 }

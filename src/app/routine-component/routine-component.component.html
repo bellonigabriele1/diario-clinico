@@ -2,3 +2,12 @@
 <app-routine-item-component 
 *ngFor="let item of routineItems"
 [routineItem]="item"></app-routine-item-component>
+<hr>
+<button class="btn btn-primary" (click)="expandUpdate()">{{ updateExpanded ? 'close update form' : 'open update form' }}</button><br>
+<div *ngIf="updateExpanded">
+<span>farmaco/attività <input type="text" class="text"></span><br>
+<span>orario <input type="text" class="text"></span><br>
+<button 
+class="btn btn-primary" 
+(click)="aggiungiItem()">add</button>
+</div>

@@ -7,6 +7,7 @@ import { HeaderComponentComponent } from './header-component/header-component.co
 import { VisualizeComponentComponent } from './visualize-component/visualize-component.component';
 import { RoutineComponentComponent } from './routine-component/routine-component.component';
 import { RoutineItemComponentComponent } from './routine-component/routine-item-component/routine-item-component.component';
+import { MedeventsComponentComponent } from './routine-component/medevents-component/medevents-component.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { RoutineItemComponentComponent } from './routine-component/routine-item-
     HeaderComponentComponent,
     VisualizeComponentComponent,
     RoutineComponentComponent,
-    RoutineItemComponentComponent
+    RoutineItemComponentComponent,
+    MedeventsComponentComponent
   ],
   imports: [
     BrowserModule,

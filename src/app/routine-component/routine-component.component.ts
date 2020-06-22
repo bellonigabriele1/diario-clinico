@@ -11,6 +11,13 @@ export class RoutineComponentComponent implements OnInit {
   constructor(private routineService: RoutineService) { }
 
   routineItems = this.routineService.routineItems;
+  updateExpanded = false;
+
+  expandUpdate() {
+    this.updateExpanded = ! this.updateExpanded;
+  }
+  
+  aggiungiItem() {}
 
   ngOnInit(): void {
   }

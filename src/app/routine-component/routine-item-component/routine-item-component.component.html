@@ -1,2 +1,2 @@
-<p (click)="fattoNonFatto()">{{ routineItem.name }} {{ routineItem.isDone ? 'fatto' : 'è da fare 👈'}}</p>
+<p (click)="fattoNonFatto(routineItem.name.concat(routineItem.orario))">{{ routineItem.name }} delle {{ routineItem.orario }} {{ routineItem.isDone ? 'fatto' : 'è da fare 👈'}}</p>
 <hr>
