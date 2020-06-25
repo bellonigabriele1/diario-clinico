@@ -2,7 +2,7 @@ runtime: python27
 api_version: 1
 threadsafe: true
 env_variables:
-  API_KEY: AIzaSyBVlucyJdUX6ZjwA17Bzl39faoRLSsk_q4
+  API_KEY: #inserire qua api key
 handlers:
 - url: /.*
   static_files: dist/diario-clinico/index.html
