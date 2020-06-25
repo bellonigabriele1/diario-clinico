@@ -1,0 +1,9 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+handlers:
+- url: /
+  static_files: dist/diario-clinico/index.html
+  upload: dist/diario-clinico/index.html
+- url: /
+  static_dir: dist/diario-clinico
