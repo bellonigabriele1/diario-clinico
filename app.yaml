@@ -4,10 +4,10 @@ threadsafe: true
 env_variables:
   API_KEY: AIzaSyBVlucyJdUX6ZjwA17Bzl39faoRLSsk_q4
 handlers:
-- url: /(.*)
+- url: /.*
   static_files: dist/diario-clinico/index.html
   upload: dist/diario-clinico/index.html
-- url: /(.*)
+- url: /.*
   static_dir: dist/diario-clinico
 skip_files:
   - e2e/
